@@ -1,0 +1,26 @@
+{
+  "name": "nytsearch",
+  "version": "1.0.0",
+  "description": "New York times Article search application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tbikhram/NYT-React.git"
+  },
+  "keywords": [
+    "NYT",
+    "Search",
+    "reactjs",
+    "react"
+  ],
+  "author": "Trevor Bikhram",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tbikhram/NYT-React/issues"
+  },
+  "homepage": "https://github.com/tbikhram/NYT-React#readme"
+}
