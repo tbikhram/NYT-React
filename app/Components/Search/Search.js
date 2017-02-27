@@ -29,9 +29,9 @@ class Search extends React.Component {
 				<div className="page-header">
 					<h2>Search</h2>
 				 </div>
-				 <div className="panel panel-primary">
+				 <div className="black" id="headPanel">
 				     <div className="panel-heading">
-				     	<h3 className="panel-title"> Search articles on The NEW YORK TIMEs</h3>
+				     	<h3 className="panel-title"> Search articles on The NEW YORK TIME</h3>
 				     	</div>
 				     	<form className="panel-body text-center" onSubmit={this.handleSubmit}>
 				     		<div className= "panel-form-group">

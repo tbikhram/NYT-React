@@ -1,0 +1,16 @@
+//bring the app exported from server.js
+var app =require("../server");
+//now we set the port of the app
+app.set("port", process.env.PORT || 3000);
+
+// this should cat the the 404 and forwar to error handler
+app.use(function(req, res, next){
+	var err = new Error("Not Found");
+	err.status = 404;
+	next(err);
+});
+
+//listen on the selectd port
+var server = app.listen(app.get("port"), function(){
+	console.log("listening on port" + server.address().port);
+});

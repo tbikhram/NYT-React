@@ -33,8 +33,8 @@ class Results extends React.Component {
 				<div className= "page-header">
 					<h2>Results</h2>
 				</div>
-				<div className="panel panel-primary">
-					<div className="panel-heading">
+				<div className="black">
+					<div className="black">
 						<h3 className="panel-title">List of articles</h3>
 						</div>
 						<div className= "panel-body">

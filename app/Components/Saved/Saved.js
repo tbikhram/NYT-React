@@ -26,8 +26,8 @@ class Saved extends React.Component {
 				<div className="page-header">
 					<h2>Saved Articles</h2>
 				</div>
-				<div className="panel panel-primary">
-					<div className="panel-heading">
+				<div className="black">
+					<div className="black">
 						<h3 className="panel-title">Articles saved on the Database</h3>
 					</div>
 					<div className="panel-body">

@@ -93,4 +93,4 @@ class Main extends React.Component {
 
 }
 //this will export the component back for use in other files
-exort default Main
+export default Main
